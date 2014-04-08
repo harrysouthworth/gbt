@@ -1,0 +1,17 @@
+citHeader("To cite package 'gbt' in publications use:")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version, "University of Manchester, https://github.com/harrysouthworth/gbt")
+
+citEntry(entry = "Manual",
+         title = "gbt: Gradient Boosted Trees",
+         author = personList(as.person("Alexandre Michelis"),
+                             as.person("Gavin Brown")),
+         institution = "The University of Manchester",
+         year = year,
+         note = vers,
+         url="https://github.com/harrysouthworth/gbt",
+         textVersion =
+         paste0("Alexandre Michelis and Gavin Brown (",year,"). ",
+                "gbt: . ",
+                vers, "."))

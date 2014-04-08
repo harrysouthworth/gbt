@@ -1,0 +1,10 @@
+Package: gbt
+Type: Package
+Title: Gradient Boosted Trees
+Version: 1.1
+Date: 2014-04-08
+Author: Alexandre Michelis, Gavin Brown
+Maintainer: Harry Southworth <harry.southworth@gmail.com>
+Description: This package implements J. Friedman's gradient boosting machine. It provides a parallel implementation of gradient boosting with trees for regression problems (squared loss) and binary classification problems (binomial deviance). Includes built-in stratified cross-validation and relative importance (relative influence) of features.
+License: GPL 3
+URL: https://github.com/harrysouthworth/gbt
