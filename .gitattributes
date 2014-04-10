@@ -1,0 +1,23 @@
+# default behaviour
+*	text=auto
+
+# Explicitly declared text files
+README  text
+*.txt	text
+*.tex	text
+*.sh	text
+Makefile	text
+*.c	text
+*.R	text
+*.r	text
+*.Rnw	text
+*.sas	text
+*.ssc	text
+*.Rd	text
+*.S	text
+*.xsl	text
+
+# Explicitly declared binary files
+*.png	binary
+*.pdf	binary
+*.csv	binary
